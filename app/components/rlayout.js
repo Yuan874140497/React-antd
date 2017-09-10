@@ -1,9 +1,13 @@
 import React from 'react';
 import { Layout } from 'antd';
-const { Header, Content, Footer, Sider } = Layout;
+const { Sider } = Layout;
 
 /*components*/
+import RHeader from './Header/rHeader'
 import RHMenu from './Header/rHmenu';
+import RComtent from './Comtent/rComtent'
+import RFooter from './Footer/rFooter'
+
 
 export default class RLayout extends React.Component {
     constructor(props) {
@@ -25,8 +29,14 @@ export default class RLayout extends React.Component {
                             <span className={(!this.state.collapsed) ? "visited" : null}>实时闻报</span>
                         </a>
                     </div>
-                    <RHMenu/>
+                    <RHMenu />
                 </Sider>
+                <Layout>
+                    <RHeader />
+                    <RComtent />
+                    <RFooter />
+                </Layout>
+
             </Layout>
         )
     }

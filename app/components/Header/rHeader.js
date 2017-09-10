@@ -1,15 +1,18 @@
 import React from 'react';
 import {Layout} from 'antd';
 
+const {Header} = Layout;
+
 /*components*/
+
 
 
 export default class RHeader extends React.Component{
     render(){
         return(
-            <header>
-                <Button>Hello</Button>
-            </header>
+            <Header style={{height:"74px"}}>
+                
+            </Header>
         )
     }
 }

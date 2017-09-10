@@ -1,4 +1,4 @@
-.logo{padding:30px 10px 10px 10px;position: relative}
+.logo{padding:20px 10px 10px 10px;position: relative}
 .logo>a{display: block;padding:5px;border-radius: 5px;background-color: #333}
 .logo img{width:34px;height: 34px;vertical-align: middle;margin-right: 16px;}
 .logo span{position: absolute;left:70px;display: none;font-size: 20px;color:#fff;;vertical-align: middle;white-space: nowrap}
